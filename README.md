@@ -1,9 +1,8 @@
 # Installation
 
-## Goal
+My OS X dotfiles for fullstack web development, including an installation script.
 
-The goal of this repository is to provide a useful set of dotfiles, configs and installations 
-scripts for fullstack web development. I set this repo as public, as I believe this might help others too.
+![screenshot of iTerm2 terminal](terminal.png)
 
 ## Getting started
 
