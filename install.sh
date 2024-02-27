@@ -140,6 +140,9 @@ brew install --cask figma
 
 brew install --cask notion
 
+one_menu_download_url="https://www.withmarko.com/one-menu"
+arc-cli new-little-arc "$one_menu_download_url"
+
 # ---------- MISC ----------
 
 brew install --cask intune-company-portal

@@ -75,3 +75,4 @@ chmod +x install.sh
 - Install the iCloud Passwords Chrome extension
 - Download and install Docker desktop application
 - Import config files from iterm2 folder in the iTerm application
+- Download and install OneMenu for window management
