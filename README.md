@@ -27,7 +27,7 @@ chmod +x install.sh
 4. Run the installation script
 
 ```shell
-sudo ./install.sh
+./install.sh
 ```
 
 ## Test cases for expected results

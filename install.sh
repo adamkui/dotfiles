@@ -4,14 +4,14 @@
 
 # TODO: this block might be deleted!
 
-rm -rf "$HOME/.oh-my-zsh"
-rm -rf "$HOME/.nvm"
-rm -rf "$HOME/powerlevel10k"
-rm "$HOME/.zshrc"
-rm "$HOME/.p10k.zsh"
-rm "$HOME/.gitconfig"
-rm "$HOME/.gitignore_global"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+# rm -rf "$HOME/.oh-my-zsh"
+# rm -rf "$HOME/.nvm"
+# rm -rf "$HOME/powerlevel10k"
+# rm "$HOME/.zshrc"
+# rm "$HOME/.p10k.zsh"
+# rm "$HOME/.gitconfig"
+# rm "$HOME/.gitignore_global"
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 
 # ---------- DIRECTORIES ----------
 
@@ -34,6 +34,8 @@ fi
 export PATH="/usr/local/bin:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> "$HOME/.zprofile"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # ---------- GIT ----------
 
@@ -106,7 +108,8 @@ brew install --cask lm-studio
 
 brew install --cask arc
 brew install --cask google-chrome
-brew install --cask microsoft-edge
+# TODO: Temporarly disable Edge installation, as it is freezing
+# brew install --cask microsoft-edge
 brew install --cask firefox
 brew install --cask opera
 brew install --cask brave-browser
