@@ -4,14 +4,14 @@
 
 # TODO: this block might be deleted!
 
-# rm -rf "$HOME/.oh-my-zsh"
-# rm -rf "$HOME/.nvm"
-# rm -rf "$HOME/powerlevel10k"
-# rm "$HOME/.zshrc"
-# rm "$HOME/.p10k.zsh"
-# rm "$HOME/.gitconfig"
-# rm "$HOME/.gitignore_global"
-# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+rm -rf "$HOME/.oh-my-zsh"
+rm -rf "$HOME/.nvm"
+rm -rf "$HOME/powerlevel10k"
+rm "$HOME/.zshrc"
+rm "$HOME/.p10k.zsh"
+rm "$HOME/.gitconfig"
+rm "$HOME/.gitignore_global"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
 
 # ---------- DIRECTORIES ----------
 
