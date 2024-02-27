@@ -1,0 +1,21 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "SynthWave '84 Blues",
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.scrollback": 9000,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "window.zoomLevel": 1,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true
+}

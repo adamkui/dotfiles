@@ -1,0 +1,17 @@
+[user]
+	name = Kui Ádám
+	email = adam.kui@icloud.com
+[github]
+	user = adamkui
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[core]
+	excludesfile = ~/.gitignore_global
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+
