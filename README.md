@@ -1,6 +1,6 @@
 # Installation
 
-My OS X dotfiles for fullstack web development, including an installation script.
+My macOS dotfiles for fullstack web development, including an installation script.
 
 ![screenshot of iTerm2 terminal](terminal.png)
 
