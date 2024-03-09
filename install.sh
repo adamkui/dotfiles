@@ -2,8 +2,6 @@
 
 # ---------- CLEANUP ----------
 
-# TODO: this block might be deleted!
-
 rm -rf "$HOME/.oh-my-zsh"
 rm -rf "$HOME/.nvm"
 rm -rf "$HOME/powerlevel10k"
@@ -108,8 +106,7 @@ brew install --cask lm-studio
 
 brew install --cask arc
 brew install --cask google-chrome
-# TODO: Temporarly disable Edge installation, as it is freezing
-# brew install --cask microsoft-edge
+brew install --cask microsoft-edge
 brew install --cask firefox
 brew install --cask opera
 brew install --cask brave-browser
