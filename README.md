@@ -30,45 +30,6 @@ chmod +x install.sh
 ./install.sh
 ```
 
-## Test cases for expected results
-
-1. The .nvm folder exists.
-2. The workspace folder exists.
-3. Running echo $SHELL returns /bin/zsh.
-4. The brew command works.
-5. The git -v command works.
-6. The .gitconfig and .gitignore_global files are copied.
-7. GitHub Desktop app is installed.
-8. iTerm2 is installed.
-9. Terminal autosuggestions and syntax-highlighting plugins are working.
-10. Powerlevel10k config was loaded automatically.
-11. Terminal appearance is as expected.
-12. The nvm -v command works.
-13. The npm -v command works.
-14. The pnpm -v command works.
-15. The node -v command works and returns version 20.11.1.
-16. The yarn -v command works.
-17. The bun -v command works.
-18. VS Code is installed with configured plugins.
-19. VS Code themes are set.
-20. Webstorm IDE is installed.
-21. The following applications are installed:
-    - Arc
-    - Chrome
-    - Edge
-    - Firefox
-    - Opera
-    - LM studio
-    - Docker
-    - Slack
-    - Discord
-    - Microsoft Teams
-    - Figma
-    - Notion
-    - Intune company portal
-22. In Arc, the Docker Desktop download page opens.
-23. In Arc, the iCloud Passwords Chrome extension download page opens.
-
 ## Manual work to do after running the script
 
 - Set Arc as default browser
